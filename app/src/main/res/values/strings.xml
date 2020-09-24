@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">MyShop</string>
+    <string name="title_activity_profileview">profileview</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string-array name="itemname">
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+        <item>T-sirt</item>
+    </string-array>
+    <string-array name="color">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Pink</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="size">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+    </string-array>
+    <string-array name="qty">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="shopingbag">Get Free Shopping By adding More</string>
+    <string name="pricedetail">Price Detail</string>
+    <string name="bag_total">Bag Total</string>
+    <string name="bag_discount">bag Discount</string>
+    <string name="odder_total">Odder Total</string>
+    <string name="delivery_charge">Delivery charge</string>
+    <string name="total">Total</string>
+    <string name="totalitem">Total Item</string>
+    <string name="go_to_bag">Go To Bag</string>
+    <string name="disclaimer">Crofcloud Onsale Landing Pvt Ltd (https://bit.ly/2QuoDoe)</string>
+    <string name="description">Crofcloud Onsale Landing Pvt Ltd (https://bit.ly/2QuoDoe)</string>
+    <string name="seller">Crofcloud Onsale Landing Pvt Ltd (https://bit.ly/2QuoDoe)</string>
+    <string name="menudacturer_Detail">Adani wilmar limited, fortune house, near navrangpura railway crossing, 380009</string>
+    <string name="pouch">Pouch</string>
+    <string name="ingredients">Refined Soyabean Oil, Permitted Antioxidant (E 319)</string>
+    <string name="key_features">Fortified with the goodness of Vitamins A and D Light, odourless and healthy oil Helps in keeping your heart healthy Ideal for baking, sautéing and stir frying</string>
+    <string name="productname">Pril Dishwash Liquid - Lime, 2X Active</string>
+    <string name="producte_name">Producte Name</string>
+    <string name="sold_by">Sold By</string>
+    <string name="remove">Remove</string>
+    <string name="gmail_id">anilkr.vivid609@gmail.com</string>
+    <string name="user_name">Anil kumar maurya</string>
+    <string name="ITEMNAME">Pril Dishwash Liquid - Lime, 2X Active</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fulladdress">Address(House No,Building,Street,Area)*</string>
+    <string name="type_of_address">Type Of Address*</string>
+    <string name="open_on_saturday">Open On Saturday</string>
+    <string name="open_on_sunday">Open On Sunday</string>
+    <string name="defult_address">Make This as my defult address ?</string>
+</resources>

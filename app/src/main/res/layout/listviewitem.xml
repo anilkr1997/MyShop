@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/clicklayout"
+    android:background="@drawable/select_tab_bacground">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:id="@+id/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/shop" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/titel"
+            android:layout_width="match_parent"
+            android:text="@string/user_name"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/subtitel"
+            android:layout_below="@id/profile_view"
+            android:layout_width="match_parent"
+            android:text="@string/gmail_id"
+            android:textSize="15dp"
+            android:textColor="@color/gray"
+            android:layout_height="wrap_content"
+            android:gravity="start"/>
+
+    </LinearLayout>
+
+</LinearLayout>

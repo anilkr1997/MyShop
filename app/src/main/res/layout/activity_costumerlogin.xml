@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/White"
+    tools:context=".customerdetial.costumerlogin">
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:background="@drawable/loginbac"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/btnback"
+            android:textStyle="bold"
+            android:text="Login"
+            android:textSize="25dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:padding="5dp"
+                android:drawableLeft="@drawable/ic_perm_identity_black_24dp"
+                android:id="@+id/userrollnumber"
+                android:layout_width="match_parent"
+                android:inputType="text"
+                android:textColorHint="@color/btnback"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="    User Id"  />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:padding="5dp"
+                android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                android:id="@+id/userdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLength="12"
+                android:textColorHint="@color/btnback"
+                android:inputType="text"
+                android:hint="   Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:layout_gravity="center"
+            android:background="@drawable/buttonback"
+            android:gravity="center"
+            android:id="@+id/login"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Login" />
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/registation"
+            android:textColor="@color/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:text="Don't have an account ? Register Now" />
+        <Button
+            android:background="@drawable/skipbuttion"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/skip"
+            android:textStyle="bold"
+            android:textColor="@color/gray"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:text="Skip" />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+

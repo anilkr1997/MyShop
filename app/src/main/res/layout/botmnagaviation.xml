@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/topbacground"
+    android:layout_gravity="bottom">
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints,UselessParent">
+
+        <ImageView
+            android:id="@+id/homee"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <ImageView
+            android:id="@+id/search_bar"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_search_black_24dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/mostlikepost"
+            android:layout_weight="1"
+            android:src="@drawable/vector_heart_red"
+         />
+
+        <ImageView
+            android:id="@+id/Profile"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_perm_identity_black_24dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints,UselessParent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints,UselessParent">
+                <TextView
+                    android:gravity="center_vertical"
+
+                    android:textStyle="normal"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:text="You Pay"
+                    android:layout_height="match_parent"/>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <TextView
+
+                        android:gravity="center_vertical"
+                        android:textColor="#8E8E93"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="2000.00"
+
+                        android:layout_height="match_parent"/>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textColor="#0527E3"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:text="1800.00"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints,UselessParent">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:text="Total Item "
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:textColor="#5870EF"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:text="10"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <Button
+                android:layout_gravity="center"
+                android:background="@drawable/buttonback"
+                android:gravity="center"
+                android:id="@+id/login"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:text="Checkout" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
